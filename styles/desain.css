@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('jumbotron/CloisterBlack.tff');
+
+#jam,#menit,#detik {
+	font-size:50px;
+}
+
+.kotak {
+	border-style: solid;
+	border-width: 100px
+	border-color: black;
+	background-color: red-maroon;
+}
+body {
+   font-family: 'Quicksand', sans-serif,; 
+   margin: 0;
+   padding: 0;
+}
+
+main {
+	text-align: justify;
+	padding: 0px;
+}
+
+footer {
+   padding: 20px;
+   color: red;
+   background-color: silver;
+   text-align: center;
+   font-weight: bold;
+   border-style: groove;
+   border-color: black;
+}
+
+.profile header {
+	text-align: center;
+}
+
+.profile img {
+	width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+.container {
+           display: flex;
+           width: auto;
+           height: auto;
+           background-color: red;
+           border: 2px solid black;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+       }
+.box-left{
+           flex-grow: 1;
+           background-color: white;
+           margin: 5px;
+           border: 2px solid black;
+           border-radius: 10px;
+       }
+.box-right{
+       	flex-grow: 1;
+           background-color: #45b9ff;
+           margin: 5px;
+           border: 2px solid black;
+           border-radius: 10px;
+           height: 700px;
+       }
+
+aside {
+	float: right;
+	width: 60%;
+	text-align: center;
+}
+
+.featured-image {
+	width: 100%;
+	max-height: auto;
+	object-fit: cover;
+	object-position: center;
+}
+
+.id-image {
+	width: 300px;
+	max-height: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.card {
+	box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+	width: 75%
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.jumbotron {
+	font-size: 20px;
+	width: auto;
+	padding: 10px;
+	background-color: red;	
+	text-align: center;
+	font-color: black;
+}
+
+.box1 {
+	border-width: auto;
+	border-color: black;
+	border-style: groove;
+	padding : 20px;
+	margin-bottom: 20px
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: disc;
+	margin-right:20px;
+}
+
+header {
+	display: inline;
+}
+
+nav {
+	background-color: silver;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: blue;
+	color: red;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+* {
+	box-sizing: border-box;
+}
